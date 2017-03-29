@@ -1,0 +1,17 @@
+<form action="/users/signin" method="post">
+	<dl>
+		<dt>
+			<label for="username">Username:</label>
+		</dt>
+		<dd>
+			<input name="username" placeholder="<%= params[:username] %>">
+		</dd>
+		<dt>
+			<label for="password">Password:</label>
+		</dt>
+		<dd>
+			<input name="password">
+		</dd>
+	</dl>
+	<button type="submit">Sign In</button>
+</form>
